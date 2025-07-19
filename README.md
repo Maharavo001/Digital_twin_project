@@ -1,6 +1,6 @@
 # 💧 Digital Twin pour la gestion d’un réseau de distribution d’eau
 
-## 🧠 Description du projet
+##  Description du projet
 
 Ce projet vise à concevoir un **jumeau numérique** (Digital Twin) d’un réseau de distribution d’eau potable, en s’appuyant sur des simulations hydrauliques effectuées à l’aide du moteur **EPANET**.
 
@@ -15,7 +15,7 @@ Ce jumeau numérique permet d’anticiper des événements critiques, de valider
 
 ## 📎 Liens utiles
 
-- 📘 [EPANET – U.S. Environmental Protection Agency](https://www.epa.gov/water-research/epanet)  
-- 📁 [EPANET Example Networks – GitHub](https://github.com/SCEPTRE-Lab/EPANET-based-Digital-Twin-of-Water-Distributions-Networks)
-- 🧪 [DHALSIM – Digital Hydraulic Analysis & Leakage Simulation](https://github.com/Critical-Infrastructure-Systems-Lab/DHALSIM)  
-- 🔧 [Digital Twin for Water Distribution Systems – GitHub](https://github.com/ibrahim85/Digital-Twin-for-Water-Distribution-Systems)
+- [EPANET – U.S. Environmental Protection Agency](https://www.epa.gov/water-research/epanet)  
+- [EPANET Example Networks – GitHub](https://github.com/SCEPTRE-Lab/EPANET-based-Digital-Twin-of-Water-Distributions-Networks)
+- [DHALSIM – Digital Hydraulic Analysis & Leakage Simulation](https://github.com/Critical-Infrastructure-Systems-Lab/DHALSIM)  
+- [Digital Twin for Water Distribution Systems – GitHub](https://github.com/ibrahim85/Digital-Twin-for-Water-Distribution-Systems)
