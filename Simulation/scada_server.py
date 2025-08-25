@@ -1,0 +1,29 @@
+# scada_server.py
+import socket
+import pickle
+import time
+from services.scada_simulator import ScadaSimulator
+
+# Initialize SCADA simulator
+scada = ScadaSimulator("/home/zayd/Desktop/Digital_twin_project/machine_learning/dataset/test.csv", delay_sec=60, max_steps=20,start_from = 0)
+
+
+Saved_data_path = "/home/zayd/Desktop/Digital_twin_project/machine_learning/dataset/augmented.csv"
+
+# Socket setup
+HOST = '127.0.0.1'
+PORT = 5000
+
+with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+    s.bind((HOST, PORT))
+    s.listen()
+    print(f"SCADA Server listening on {HOST}:{PORT}")
+    conn, addr = s.accept()
+    with conn:
+        print(f"Client connected: {addr}")
+        for ts, demand in scada.stream_data():
+            # Serialize the tuple and send
+            data_bytes = pickle.dumps((ts, demand))
+            conn.sendall(len(data_bytes).to_bytes(4, 'big') + data_bytes)  # prepend length
+            print(f"Sent data for {ts}")
+        scada.save_dataset(Saved_data_path)
