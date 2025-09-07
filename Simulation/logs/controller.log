@@ -1,0 +1,142 @@
+2025-09-06 21:43:53.819724: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1757191433.864296  115627 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1757191433.877800  115627 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1757191433.905674  115627 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1757191433.905704  115627 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1757191433.905708  115627 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1757191433.905711  115627 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+[2025-09-06 21:44:02] Connected to SCADA server
+[2025-09-06 21:44:02] Connected to Result Receiver
+[2025-09-06 21:44:02] [2025-09-06 21:44:02] Step 0
+[2025-09-06 21:44:02] First iteration - running with real demand...
+[2025-09-06 21:44:06] Sent real_results to receiver
+[2025-09-06 21:44:22] [2025-09-06 21:44:22] Step 1
+[2025-09-06 21:44:22] [J436] abs_error=0.001393, rel_error=103.601% → FAIL
+[2025-09-06 21:44:22] [J83] abs_error=0.002217, rel_error=102.122% → FAIL
+[2025-09-06 21:44:22] [J498] abs_error=0.002099, rel_error=103.650% → FAIL
+[2025-09-06 21:44:22] [J303] abs_error=0.001778, rel_error=105.081% → FAIL
+[2025-09-06 21:44:22] [J101] abs_error=0.000429, rel_error=116.642% → OK
+[2025-09-06 21:44:22] [J27] abs_error=0.001721, rel_error=102.230% → FAIL
+[2025-09-06 21:44:22] [J227] abs_error=0.003189, rel_error=99.916% → FAIL
+[2025-09-06 21:44:22] [J90] abs_error=0.001976, rel_error=101.586% → FAIL
+[2025-09-06 21:44:22] [J280] abs_error=0.000009, rel_error=856.878% → OK
+[2025-09-06 21:44:22] [J309] abs_error=0.000689, rel_error=104.435% → OK
+[2025-09-06 21:44:22] Failed junctions: 7/10 (70.0%)
+[2025-09-06 21:44:31] Sent real_results to receiver
+[2025-09-06 21:44:42] [2025-09-06 21:44:42] Step 2
+[2025-09-06 21:44:42] [J436] abs_error=0.000049, rel_error=4941.992% → OK
+[2025-09-06 21:44:42] [J83] abs_error=0.000047, rel_error=4706.489% → OK
+[2025-09-06 21:44:42] [J498] abs_error=0.001001, rel_error=107.969% → FAIL
+[2025-09-06 21:44:42] [J303] abs_error=0.000579, rel_error=117.430% → OK
+[2025-09-06 21:44:42] [J101] abs_error=0.000752, rel_error=108.857% → OK
+[2025-09-06 21:44:42] [J27] abs_error=0.000039, rel_error=3855.010% → OK
+[2025-09-06 21:44:42] [J227] abs_error=0.001382, rel_error=99.807% → FAIL
+[2025-09-06 21:44:42] [J90] abs_error=0.001531, rel_error=102.056% → FAIL
+[2025-09-06 21:44:42] [J280] abs_error=0.000310, rel_error=97.005% → OK
+[2025-09-06 21:44:42] [J309] abs_error=0.000751, rel_error=104.054% → OK
+[2025-09-06 21:44:42] Failed junctions: 3/10 (30.0%)
+[2025-09-06 21:44:46] Sent real_results to receiver
+[2025-09-06 21:45:02] [2025-09-06 21:45:02] Step 3
+[2025-09-06 21:45:02] [J436] abs_error=0.000049, rel_error=4941.992% → OK
+[2025-09-06 21:45:02] [J83] abs_error=0.002506, rel_error=101.873% → FAIL
+[2025-09-06 21:45:02] [J498] abs_error=0.001618, rel_error=104.788% → FAIL
+[2025-09-06 21:45:02] [J303] abs_error=0.002584, rel_error=103.441% → FAIL
+[2025-09-06 21:45:02] [J101] abs_error=0.001854, rel_error=103.414% → FAIL
+[2025-09-06 21:45:02] [J27] abs_error=0.000938, rel_error=104.169% → OK
+[2025-09-06 21:45:02] [J227] abs_error=0.003066, rel_error=99.913% → FAIL
+[2025-09-06 21:45:02] [J90] abs_error=0.002578, rel_error=101.211% → FAIL
+[2025-09-06 21:45:02] [J280] abs_error=0.000898, rel_error=98.946% → OK
+[2025-09-06 21:45:02] [J309] abs_error=0.000228, rel_error=114.705% → OK
+[2025-09-06 21:45:02] Failed junctions: 6/10 (60.0%)
+[2025-09-06 21:45:12] Sent real_results to receiver
+[2025-09-06 21:45:22] [2025-09-06 21:45:22] Step 4
+[2025-09-06 21:45:22] [J436] abs_error=0.000358, rel_error=115.650% → OK
+[2025-09-06 21:45:22] [J83] abs_error=0.001174, rel_error=104.085% → FAIL
+[2025-09-06 21:45:22] [J498] abs_error=0.001895, rel_error=104.059% → FAIL
+[2025-09-06 21:45:22] [J303] abs_error=0.001984, rel_error=104.530% → FAIL
+[2025-09-06 21:45:22] [J101] abs_error=0.000062, rel_error=6222.473% → OK
+[2025-09-06 21:45:22] [J27] abs_error=0.001773, rel_error=102.164% → FAIL
+[2025-09-06 21:45:22] [J227] abs_error=0.001729, rel_error=99.846% → FAIL
+[2025-09-06 21:45:22] [J90] abs_error=0.001812, rel_error=101.732% → FAIL
+[2025-09-06 21:45:22] [J280] abs_error=0.001984, rel_error=99.520% → FAIL
+[2025-09-06 21:45:22] [J309] abs_error=0.000758, rel_error=104.018% → OK
+[2025-09-06 21:45:22] Failed junctions: 7/10 (70.0%)
+[2025-09-06 21:45:31] Sent real_results to receiver
+[2025-09-06 21:45:42] [2025-09-06 21:45:42] Step 5
+[2025-09-06 21:45:42] [J436] abs_error=0.000631, rel_error=108.313% → OK
+[2025-09-06 21:45:42] [J83] abs_error=0.000444, rel_error=111.590% → OK
+[2025-09-06 21:45:42] [J498] abs_error=0.000320, rel_error=130.032% → OK
+[2025-09-06 21:45:42] [J303] abs_error=0.000309, rel_error=138.527% → OK
+[2025-09-06 21:45:42] [J101] abs_error=0.000403, rel_error=117.915% → OK
+[2025-09-06 21:45:42] [J27] abs_error=0.000122, rel_error=144.384% → OK
+[2025-09-06 21:45:42] [J227] abs_error=0.000419, rel_error=99.365% → OK
+[2025-09-06 21:45:42] [J90] abs_error=0.000472, rel_error=106.985% → OK
+[2025-09-06 21:45:42] [J280] abs_error=0.000172, rel_error=94.733% → OK
+[2025-09-06 21:45:42] [J309] abs_error=0.000548, rel_error=105.646% → OK
+[2025-09-06 21:45:42] Failed junctions: 0/10 (0.0%)
+[2025-09-06 21:45:46] Sent real_results to receiver
+[2025-09-06 21:46:02] [2025-09-06 21:46:02] Step 6
+[2025-09-06 21:46:02] [J436] abs_error=0.000890, rel_error=105.751% → OK
+[2025-09-06 21:46:02] [J83] abs_error=0.000753, rel_error=106.515% → OK
+[2025-09-06 21:46:02] [J498] abs_error=0.000467, rel_error=118.806% → OK
+[2025-09-06 21:46:02] [J303] abs_error=0.000959, rel_error=109.854% → OK
+[2025-09-06 21:46:02] [J101] abs_error=0.000909, rel_error=107.224% → OK
+[2025-09-06 21:46:02] [J27] abs_error=0.002682, rel_error=101.420% → FAIL
+[2025-09-06 21:46:02] [J227] abs_error=0.000251, rel_error=98.944% → OK
+[2025-09-06 21:46:02] [J90] abs_error=0.000707, rel_error=104.563% → OK
+[2025-09-06 21:46:02] [J280] abs_error=0.001331, rel_error=99.286% → FAIL
+[2025-09-06 21:46:02] [J309] abs_error=0.002274, rel_error=101.304% → FAIL
+[2025-09-06 21:46:02] Failed junctions: 3/10 (30.0%)
+[2025-09-06 21:46:06] Sent real_results to receiver
+[2025-09-06 21:46:22] [2025-09-06 21:46:22] Step 7
+[2025-09-06 21:46:22] [J436] abs_error=0.000049, rel_error=4941.992% → OK
+[2025-09-06 21:46:22] [J83] abs_error=0.000047, rel_error=4706.489% → OK
+[2025-09-06 21:46:22] [J498] abs_error=0.002138, rel_error=103.581% → FAIL
+[2025-09-06 21:46:22] [J303] abs_error=0.002276, rel_error=103.925% → FAIL
+[2025-09-06 21:46:22] [J101] abs_error=0.000422, rel_error=116.983% → OK
+[2025-09-06 21:46:22] [J27] abs_error=0.002133, rel_error=101.792% → FAIL
+[2025-09-06 21:46:22] [J227] abs_error=0.001309, rel_error=99.796% → FAIL
+[2025-09-06 21:46:22] [J90] abs_error=0.002462, rel_error=101.269% → FAIL
+[2025-09-06 21:46:22] [J280] abs_error=0.002077, rel_error=99.541% → FAIL
+[2025-09-06 21:46:22] [J309] abs_error=0.000710, rel_error=104.298% → OK
+[2025-09-06 21:46:22] Failed junctions: 6/10 (60.0%)
+[2025-09-06 21:46:31] Sent real_results to receiver
+[2025-09-06 21:46:42] [2025-09-06 21:46:42] Step 8
+[2025-09-06 21:46:42] [J436] abs_error=0.001722, rel_error=102.893% → FAIL
+[2025-09-06 21:46:42] [J83] abs_error=0.000047, rel_error=4706.489% → OK
+[2025-09-06 21:46:42] [J498] abs_error=0.000942, rel_error=108.518% → OK
+[2025-09-06 21:46:42] [J303] abs_error=0.000257, rel_error=150.350% → OK
+[2025-09-06 21:46:42] [J101] abs_error=0.000523, rel_error=113.260% → OK
+[2025-09-06 21:46:42] [J27] abs_error=0.000078, rel_error=193.981% → OK
+[2025-09-06 21:46:42] [J227] abs_error=0.000002, rel_error=167.322% → OK
+[2025-09-06 21:46:42] [J90] abs_error=0.001630, rel_error=101.929% → FAIL
+[2025-09-06 21:46:42] [J280] abs_error=0.000671, rel_error=98.593% → OK
+[2025-09-06 21:46:42] [J309] abs_error=0.001388, rel_error=102.155% → FAIL
+[2025-09-06 21:46:42] Failed junctions: 3/10 (30.0%)
+[2025-09-06 21:46:47] Sent real_results to receiver
+[2025-09-06 21:47:02] [2025-09-06 21:47:02] Step 9
+[2025-09-06 21:47:02] [J436] abs_error=0.000569, rel_error=109.304% → OK
+[2025-09-06 21:47:02] [J83] abs_error=0.000047, rel_error=4706.489% → OK
+[2025-09-06 21:47:02] [J498] abs_error=0.000957, rel_error=108.365% → OK
+[2025-09-06 21:47:02] [J303] abs_error=0.003558, rel_error=102.477% → FAIL
+[2025-09-06 21:47:02] [J101] abs_error=0.003087, rel_error=102.023% → FAIL
+[2025-09-06 21:47:02] [J27] abs_error=0.002590, rel_error=101.471% → FAIL
+[2025-09-06 21:47:02] [J227] abs_error=0.001374, rel_error=99.806% → FAIL
+[2025-09-06 21:47:02] [J90] abs_error=0.000914, rel_error=103.492% → OK
+[2025-09-06 21:47:02] [J280] abs_error=0.001148, rel_error=99.173% → FAIL
+[2025-09-06 21:47:02] [J309] abs_error=0.002395, rel_error=101.237% → FAIL
+[2025-09-06 21:47:02] Failed junctions: 6/10 (60.0%)
+[2025-09-06 21:47:10] Sent real_results to receiver
+[2025-09-06 21:47:22] [2025-09-06 21:47:22] Step 10
+[2025-09-06 21:47:22] [J436] abs_error=0.001232, rel_error=104.092% → FAIL
+[2025-09-06 21:47:22] [J83] abs_error=0.000866, rel_error=105.618% → OK
+[2025-09-06 21:47:22] [J498] abs_error=0.001614, rel_error=104.800% → FAIL
+[2025-09-06 21:47:22] [J303] abs_error=0.001266, rel_error=107.288% → FAIL
+[2025-09-06 21:47:22] [J101] abs_error=0.000094, rel_error=286.115% → OK
+[2025-09-06 21:47:22] [J27] abs_error=0.000039, rel_error=3855.010% → OK
+[2025-09-06 21:47:22] [J227] abs_error=0.001909, rel_error=99.860% → FAIL
+[2025-09-06 21:47:22] [J90] abs_error=0.001690, rel_error=101.859% → FAIL
+[2025-09-06 21:47:22] [J280] abs_error=0.001351, rel_error=99.297% → FAIL
+[2025-09-06 21:47:22] [J309] abs_error=0.000753, rel_error=104.044% → OK
+[2025-09-06 21:47:22] Failed junctions: 6/10 (60.0%)

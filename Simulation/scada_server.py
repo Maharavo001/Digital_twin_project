@@ -5,10 +5,10 @@ import time
 from services.scada_simulator import ScadaSimulator
 
 # Initialize SCADA simulator
-scada = ScadaSimulator("/home/zayd/Desktop/Digital_twin_project/machine_learning/dataset/test.csv", delay_sec=60, max_steps=20,start_from = 0)
+scada = ScadaSimulator("/mnt/data/home/zayd/Digital_twin_project/machine_learning/dataset/Ctown/test.csv", delay_sec=20, max_steps=48,start_from = 0)
 
 
-Saved_data_path = "/home/zayd/Desktop/Digital_twin_project/machine_learning/dataset/augmented.csv"
+Saved_data_path = "mnt/data/home/zayd/Desktop/Digital_twin_project/machine_learning/dataset/Ctown/augmented_9_3_1.csv"
 
 # Socket setup
 HOST = '127.0.0.1'
