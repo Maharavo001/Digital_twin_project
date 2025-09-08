@@ -1,0 +1,392 @@
+Running simulation with week index: 0
+Running simulation using PDD
+Starting simulation for minitown_map.inp topology 
+Simulation will run for 1 days. Hydraulic timestep is 900.0 for a total of 96.0 iterations
+ITERATION 0 ------------- 
+  Tank TANK level: 2.16
+  Pump PUMP1 status: 0, flow: 0.00
+  Pump PUMP2 status: 1, flow: 0.11
+ITERATION 1 ------------- 
+  Tank TANK level: 2.23
+  Pump PUMP1 status: 0, flow: 0.00
+  Pump PUMP2 status: 1, flow: 0.11
+ITERATION 2 ------------- 
+  Tank TANK level: 2.31
+  Pump PUMP1 status: 0, flow: 0.00
+  Pump PUMP2 status: 1, flow: 0.11
+ITERATION 3 ------------- 
+  Tank TANK level: 2.38
+  Pump PUMP1 status: 1, flow: 0.09
+  Pump PUMP2 status: 1, flow: 0.09
+ITERATION 4 ------------- 
+  Tank TANK level: 2.52
+  Pump PUMP1 status: 1, flow: 0.09
+  Pump PUMP2 status: 1, flow: 0.09
+ITERATION 5 ------------- 
+  Tank TANK level: 2.66
+  Pump PUMP1 status: 1, flow: 0.09
+  Pump PUMP2 status: 1, flow: 0.09
+ITERATION 6 ------------- 
+  Tank TANK level: 2.81
+  Pump PUMP1 status: 1, flow: 0.09
+  Pump PUMP2 status: 1, flow: 0.09
+ITERATION 7 ------------- 
+  Tank TANK level: 2.95
+  Pump PUMP1 status: 1, flow: 0.09
+  Pump PUMP2 status: 1, flow: 0.09
+ITERATION 8 ------------- 
+  Tank TANK level: 3.10
+  Pump PUMP1 status: 1, flow: 0.09
+  Pump PUMP2 status: 1, flow: 0.09
+ITERATION 9 ------------- 
+  Tank TANK level: 3.25
+  Pump PUMP1 status: 1, flow: 0.09
+  Pump PUMP2 status: 1, flow: 0.09
+ITERATION 10 ------------- 
+  Tank TANK level: 3.40
+  Pump PUMP1 status: 1, flow: 0.09
+  Pump PUMP2 status: 1, flow: 0.09
+ITERATION 11 ------------- 
+  Tank TANK level: 3.54
+  Pump PUMP1 status: 1, flow: 0.09
+  Pump PUMP2 status: 1, flow: 0.09
+ITERATION 12 ------------- 
+  Tank TANK level: 3.71
+  Pump PUMP1 status: 1, flow: 0.09
+  Pump PUMP2 status: 1, flow: 0.09
+ITERATION 13 ------------- 
+  Tank TANK level: 3.87
+  Pump PUMP1 status: 1, flow: 0.09
+  Pump PUMP2 status: 1, flow: 0.09
+ITERATION 14 ------------- 
+  Tank TANK level: 4.03
+  Pump PUMP1 status: 1, flow: 0.09
+  Pump PUMP2 status: 1, flow: 0.09
+ITERATION 15 ------------- 
+  Tank TANK level: 4.20
+  Pump PUMP1 status: 1, flow: 0.09
+  Pump PUMP2 status: 1, flow: 0.09
+ITERATION 16 ------------- 
+  Tank TANK level: 4.35
+  Pump PUMP1 status: 1, flow: 0.09
+  Pump PUMP2 status: 1, flow: 0.09
+ITERATION 17 ------------- 
+  Tank TANK level: 4.51
+  Pump PUMP1 status: 1, flow: 0.09
+  Pump PUMP2 status: 1, flow: 0.09
+ITERATION 18 ------------- 
+  Tank TANK level: 4.67
+  Pump PUMP1 status: 1, flow: 0.09
+  Pump PUMP2 status: 1, flow: 0.09
+ITERATION 19 ------------- 
+  Tank TANK level: 4.83
+  Pump PUMP1 status: 1, flow: 0.09
+  Pump PUMP2 status: 1, flow: 0.09
+ITERATION 20 ------------- 
+  Tank TANK level: 4.99
+  Pump PUMP1 status: 1, flow: 0.09
+  Pump PUMP2 status: 1, flow: 0.09
+ITERATION 21 ------------- 
+  Tank TANK level: 5.15
+  Pump PUMP1 status: 1, flow: 0.09
+  Pump PUMP2 status: 1, flow: 0.09
+ITERATION 22 ------------- 
+  Tank TANK level: 5.30
+  Pump PUMP1 status: 1, flow: 0.09
+  Pump PUMP2 status: 1, flow: 0.09
+ITERATION 23 ------------- 
+  Tank TANK level: 5.46
+  Pump PUMP1 status: 1, flow: 0.09
+  Pump PUMP2 status: 1, flow: 0.09
+ITERATION 24 ------------- 
+  Tank TANK level: 5.61
+  Pump PUMP1 status: 1, flow: 0.09
+  Pump PUMP2 status: 1, flow: 0.09
+ITERATION 25 ------------- 
+  Tank TANK level: 5.76
+  Pump PUMP1 status: 1, flow: 0.09
+  Pump PUMP2 status: 1, flow: 0.09
+ITERATION 26 ------------- 
+  Tank TANK level: 5.90
+  Pump PUMP1 status: 1, flow: 0.09
+  Pump PUMP2 status: 1, flow: 0.09
+ITERATION 27 ------------- 
+  Tank TANK level: 6.05
+  Pump PUMP1 status: 1, flow: 0.11
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 28 ------------- 
+  Tank TANK level: 6.11
+  Pump PUMP1 status: 1, flow: 0.11
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 29 ------------- 
+  Tank TANK level: 6.17
+  Pump PUMP1 status: 1, flow: 0.11
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 30 ------------- 
+  Tank TANK level: 6.23
+  Pump PUMP1 status: 1, flow: 0.11
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 31 ------------- 
+  Tank TANK level: 6.29
+  Pump PUMP1 status: 1, flow: 0.11
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 32 ------------- 
+  Tank TANK level: 6.32
+  Pump PUMP1 status: 1, flow: 0.11
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 33 ------------- 
+  Tank TANK level: 6.36
+  Pump PUMP1 status: 1, flow: 0.11
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 34 ------------- 
+  Tank TANK level: 6.40
+  Pump PUMP1 status: 1, flow: 0.11
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 35 ------------- 
+  Tank TANK level: 6.44
+  Pump PUMP1 status: 1, flow: 0.11
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 36 ------------- 
+  Tank TANK level: 6.48
+  Pump PUMP1 status: 1, flow: 0.11
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 37 ------------- 
+  Tank TANK level: 6.50
+  Pump PUMP1 status: 0, flow: 0.00
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 38 ------------- 
+  Tank TANK level: 6.47
+  Pump PUMP1 status: 0, flow: 0.00
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 39 ------------- 
+  Tank TANK level: 6.38
+  Pump PUMP1 status: 0, flow: 0.00
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 40 ------------- 
+  Tank TANK level: 6.29
+  Pump PUMP1 status: 0, flow: 0.00
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 41 ------------- 
+  Tank TANK level: 6.19
+  Pump PUMP1 status: 0, flow: 0.00
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 42 ------------- 
+  Tank TANK level: 6.10
+  Pump PUMP1 status: 0, flow: 0.00
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 43 ------------- 
+  Tank TANK level: 6.00
+  Pump PUMP1 status: 0, flow: 0.00
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 44 ------------- 
+  Tank TANK level: 5.91
+  Pump PUMP1 status: 0, flow: 0.00
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 45 ------------- 
+  Tank TANK level: 5.81
+  Pump PUMP1 status: 0, flow: 0.00
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 46 ------------- 
+  Tank TANK level: 5.71
+  Pump PUMP1 status: 0, flow: 0.00
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 47 ------------- 
+  Tank TANK level: 5.62
+  Pump PUMP1 status: 0, flow: 0.00
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 48 ------------- 
+  Tank TANK level: 5.52
+  Pump PUMP1 status: 0, flow: 0.00
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 49 ------------- 
+  Tank TANK level: 5.44
+  Pump PUMP1 status: 0, flow: 0.00
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 50 ------------- 
+  Tank TANK level: 5.35
+  Pump PUMP1 status: 0, flow: 0.00
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 51 ------------- 
+  Tank TANK level: 5.27
+  Pump PUMP1 status: 0, flow: 0.00
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 52 ------------- 
+  Tank TANK level: 5.19
+  Pump PUMP1 status: 0, flow: 0.00
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 53 ------------- 
+  Tank TANK level: 5.12
+  Pump PUMP1 status: 0, flow: 0.00
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 54 ------------- 
+  Tank TANK level: 5.05
+  Pump PUMP1 status: 0, flow: 0.00
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 55 ------------- 
+  Tank TANK level: 4.98
+  Pump PUMP1 status: 0, flow: 0.00
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 56 ------------- 
+  Tank TANK level: 4.91
+  Pump PUMP1 status: 0, flow: 0.00
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 57 ------------- 
+  Tank TANK level: 4.83
+  Pump PUMP1 status: 0, flow: 0.00
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 58 ------------- 
+  Tank TANK level: 4.75
+  Pump PUMP1 status: 0, flow: 0.00
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 59 ------------- 
+  Tank TANK level: 4.67
+  Pump PUMP1 status: 0, flow: 0.00
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 60 ------------- 
+  Tank TANK level: 4.60
+  Pump PUMP1 status: 0, flow: 0.00
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 61 ------------- 
+  Tank TANK level: 4.53
+  Pump PUMP1 status: 0, flow: 0.00
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 62 ------------- 
+  Tank TANK level: 4.46
+  Pump PUMP1 status: 0, flow: 0.00
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 63 ------------- 
+  Tank TANK level: 4.39
+  Pump PUMP1 status: 0, flow: 0.00
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 64 ------------- 
+  Tank TANK level: 4.32
+  Pump PUMP1 status: 0, flow: 0.00
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 65 ------------- 
+  Tank TANK level: 4.26
+  Pump PUMP1 status: 0, flow: 0.00
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 66 ------------- 
+  Tank TANK level: 4.20
+  Pump PUMP1 status: 0, flow: 0.00
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 67 ------------- 
+  Tank TANK level: 4.14
+  Pump PUMP1 status: 0, flow: 0.00
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 68 ------------- 
+  Tank TANK level: 4.08
+  Pump PUMP1 status: 0, flow: 0.00
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 69 ------------- 
+  Tank TANK level: 4.00
+  Pump PUMP1 status: 0, flow: 0.00
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 70 ------------- 
+  Tank TANK level: 3.93
+  Pump PUMP1 status: 0, flow: 0.00
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 71 ------------- 
+  Tank TANK level: 3.85
+  Pump PUMP1 status: 0, flow: 0.00
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 72 ------------- 
+  Tank TANK level: 3.78
+  Pump PUMP1 status: 0, flow: 0.00
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 73 ------------- 
+  Tank TANK level: 3.70
+  Pump PUMP1 status: 1, flow: 0.11
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 74 ------------- 
+  Tank TANK level: 3.76
+  Pump PUMP1 status: 1, flow: 0.11
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 75 ------------- 
+  Tank TANK level: 3.82
+  Pump PUMP1 status: 1, flow: 0.11
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 76 ------------- 
+  Tank TANK level: 3.87
+  Pump PUMP1 status: 1, flow: 0.11
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 77 ------------- 
+  Tank TANK level: 3.93
+  Pump PUMP1 status: 1, flow: 0.11
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 78 ------------- 
+  Tank TANK level: 3.99
+  Pump PUMP1 status: 1, flow: 0.11
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 79 ------------- 
+  Tank TANK level: 4.04
+  Pump PUMP1 status: 1, flow: 0.11
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 80 ------------- 
+  Tank TANK level: 4.10
+  Pump PUMP1 status: 1, flow: 0.11
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 81 ------------- 
+  Tank TANK level: 4.16
+  Pump PUMP1 status: 1, flow: 0.11
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 82 ------------- 
+  Tank TANK level: 4.21
+  Pump PUMP1 status: 1, flow: 0.11
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 83 ------------- 
+  Tank TANK level: 4.27
+  Pump PUMP1 status: 1, flow: 0.11
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 84 ------------- 
+  Tank TANK level: 4.32
+  Pump PUMP1 status: 1, flow: 0.11
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 85 ------------- 
+  Tank TANK level: 4.37
+  Pump PUMP1 status: 1, flow: 0.11
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 86 ------------- 
+  Tank TANK level: 4.42
+  Pump PUMP1 status: 1, flow: 0.11
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 87 ------------- 
+  Tank TANK level: 4.47
+  Pump PUMP1 status: 1, flow: 0.11
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 88 ------------- 
+  Tank TANK level: 4.52
+  Pump PUMP1 status: 1, flow: 0.11
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 89 ------------- 
+  Tank TANK level: 4.59
+  Pump PUMP1 status: 1, flow: 0.11
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 90 ------------- 
+  Tank TANK level: 4.66
+  Pump PUMP1 status: 1, flow: 0.11
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 91 ------------- 
+  Tank TANK level: 4.72
+  Pump PUMP1 status: 1, flow: 0.11
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 92 ------------- 
+  Tank TANK level: 4.79
+  Pump PUMP1 status: 1, flow: 0.11
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 93 ------------- 
+  Tank TANK level: 4.86
+  Pump PUMP1 status: 1, flow: 0.11
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 94 ------------- 
+  Tank TANK level: 4.93
+  Pump PUMP1 status: 1, flow: 0.11
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 95 ------------- 
+  Tank TANK level: 5.01
+  Pump PUMP1 status: 1, flow: 0.11
+  Pump PUMP2 status: 0, flow: 0.00
+ITERATION 96 ------------- 
+  Tank TANK level: 5.08
+  Pump PUMP1 status: 1, flow: 0.11
+  Pump PUMP2 status: 0, flow: 0.00
