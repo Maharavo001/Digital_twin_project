@@ -1,7 +1,6 @@
 import os
-# Configure environment before other imports
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'  # Suppress TensorFlow logging
-os.environ['MPLCONFIGDIR'] = '/tmp/'      # Fix matplotlib config
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+os.environ['MPLCONFIGDIR'] = '/tmp/'
 
 import matplotlib
 matplotlib.use('Agg')
@@ -10,26 +9,31 @@ import subprocess
 import json
 import numpy as np
 import pickle
+import yaml
 from services.prediction_service import ModelManager
 import logging
+
+# Load configuration
+with open('config.yaml', 'r') as f:
+    config = yaml.safe_load(f)
+
+# Configuration from YAML
+ABS_TOL = config['simulation']['abs_tol']
+REL_TOL = config['simulation']['rel_tol']
+MAX_FAIL_RATIO = config['simulation']['max_fail_ratio']
+STEP_DELAY_SEC = config['simulation']['step_delay_sec']
+HOST_SCADA = config['mininet']['hosts']['h1']['ip'].split('/')[0]  # '10.0.0.1'
+PORT_SCADA = config['network']['scada_port']
+HOST_RESULT = config['mininet']['hosts']['h5']['ip'].split('/')[0]  # '10.0.0.5'
+PORT_RESULT = config['network']['result_port']
+
+
 logging.basicConfig(
     level=logging.INFO,
     format='[%(asctime)s] %(message)s',
     datefmt='%Y-%m-%d %H:%M:%S'
 )
 logger = logging.getLogger(__name__)
-
-# -----------------------------
-# Config
-# -----------------------------
-ABS_TOL = 1e-3     # absolute tolerance
-REL_TOL = 0.05     # relative tolerance (5%)
-MAX_FAIL_RATIO = 0.3
-STEP_DELAY_SEC = 60
-HOST_SCADA = '127.0.0.1'
-PORT_SCADA = 5000
-HOST_RESULT = '127.0.0.1'
-PORT_RESULT = 6000
 
 # -----------------------------
 # Helper functions
@@ -53,8 +57,12 @@ def receive_scada_data(s):
 def run_physical_process(demand_dict, state):
     """Run one step with demand input and state persistence"""
     state_arg = state if isinstance(state, str) else json.dumps(state)
+    
+    # Get Python path from config or use default
+    python_path = config.get('venv', {}).get('python_path', 'python3')
+    
     cmd = [
-        'python',
+        python_path,  # Use the configured Python path
         'physical_process.py',
         state_arg,
         json.dumps(demand_dict)
@@ -103,11 +111,11 @@ def main():
     predicted_state = None
     iteration = -1
 
-    junctions_data_path = "/mnt/data/home/zayd/Digital_twin_project/machine_learning/dataset/Ctown/junctions"
-    model_dir = '/mnt/data/home/zayd/Digital_twin_project/machine_learning/model_trained/LightGBM_0.0.5'
-    scaler_dir = os.path.join(model_dir, 'scalers')
-    dict_path = os.path.join(model_dir, 'feature_and_target.json')
-    inp_file = '/mnt/data/home/zayd/Digital_twin_project/inp_networks/ctown_map.inp'
+    junctions_data_path = config['paths']['junctions_data']
+    model_dir = config['paths']['model_dir']
+    scaler_dir = os.path.join(model_dir, config['model']['feature_scaler_dir'])
+    dict_path = os.path.join(model_dir, config['paths']['feature_dict'])
+    inp_file = config['paths']['inp_file']
 
     predictor = ModelManager(
         models_dir=model_dir,
@@ -128,6 +136,7 @@ def main():
     prediction_accepted = 0
     prediction_rejected = 0
     total_iterations = 0
+    print(f"Trying to connect to SCADA at {HOST_SCADA}:{PORT_SCADA}")
 
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as scada_socket, \
          socket.socket(socket.AF_INET, socket.SOCK_STREAM) as result_socket:
